@@ -1,8 +1,5 @@
-import psutil
+import random
 
+num = random.randint(1, 100)
 
-def free_disk_size():
-    total_size = psutil.disk_usage('C:').free
-    print('Total Size:', total_size, ' GB')
-
-free_disk_size()    
+print(num)
