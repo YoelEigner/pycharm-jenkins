@@ -2,4 +2,7 @@ import random
 
 num = random.randint(1, 100)
 
-print(num)
+num1 = num
+num2 = num
+
+print(num1 + num2)
